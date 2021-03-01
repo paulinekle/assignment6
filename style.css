@@ -5,6 +5,7 @@
 body {
   font-size: 20px;
   margin: 0;
+  background-color: pink;
 }
 h1,
 h2,
@@ -50,10 +51,7 @@ header,
 .hide-desktop {
   display: block;
 }
-@media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 60px;
-  }
+
   .feature {
     flex-direction: row;
     width: 80%;
@@ -71,10 +69,21 @@ header,
   }
 }
 
-@media only screen and (min-width: 1024px) {
+
+@media only screen and (min-width: 768px) {
+  h1 {font-size: 60px;
+      line-height: 68px;
+
+  }
+  h2 {font-size: 32px;
+      line-height: 42px;
+  }
+  header h2 { font-weight: bold;}
+
+@media only screen and (min-width: 768px) {
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1440px) {
   .no-widows {
     display: block;
   }

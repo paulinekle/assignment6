@@ -76,7 +76,11 @@ header,
     width: 80%;
     margin: auto;
   }
-}
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 300px;}
 
 
 @media only screen and (min-width: 768px) {

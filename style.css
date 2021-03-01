@@ -2,12 +2,6 @@
   box-sizing: border-box;
 }
 
-.article {
-  float: left;
-  width: 33%;
-  padding: 10px;
-  height: 300px;
-}
 
 div {
     display: block;

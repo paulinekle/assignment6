@@ -21,14 +21,28 @@ img {
   width: 100%;
 }
 h1 {
+  font-family: 'Abril Fatface', Cursive;
   font-size: 60px;
   line-height: 68px;
 }
 h2 {
-  font-size: 32px;
+  font-family: 'Poppins', Sans-Serif;
+  font-size: 30px;
   line-height: 42px;
   font-weight: bold;
 }
+h3 {
+  font-family: 'Abril Fatface', Cursive;
+  font-size: 25px;
+  line-height: 42px;
+  font-weight: bold;
+}
+p, a {
+   font-family: 'Poppins', Sans-Serif;
+  font-size: 14px;
+  
+}
+
 header h2 {
   font-weight: normal;
 }
